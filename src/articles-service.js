@@ -35,3 +35,14 @@ const ArticlesService = {
 
 
 module.exports = ArticlesService
+
+/*
+    updateArticle(knex, id, newArticleFields) {
+        return knex('blogful_articles')
+            .where({ id })
+            .update(newArticleFields)
+        },
+
+
+        
+*/
